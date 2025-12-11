@@ -10,32 +10,34 @@
     <title>Product Card</title>
 </head>
 <body class="bg-my_strawberry flex justify-center">
-    <main class="bg-white w-full max-w-xs m-10 p-3">
-        <img src="strawberrie.jpg" alt="Strawberries">
+    <main class="bg-white w-full max-w-xs m-10 p-4 md:grid md:grid-cols-2 md:max-w-3xl md:gap-5 md:px-5 bg-mobile bg-no-repeat bg-bottom md:bg-desktop md:bg-cover">
+        <img src="strawberrie.jpg" alt="Strawberries" class="border-2 border-pink-100 md:my-8">
 
-        <h1 class="font-title font-bold text-2xl">Fresh Strawberries</h1>
+            <section>
+                <h1 class="font-title font-bold text-2xl md:text-3xl">Fresh Strawberries</h1>
 
-        <p class="font-title text-md">Organic - Hand-picked</p>
+                <p class="font-title text-md md:text-xl">Organic - Hand-picked</p>
 
-        <h2 class="text-5xl font-light my-3">$2<span class="text-lg">.37</span></h2>
+                <h2 class="text-5xl font-light my-3">$2<span class="text-lg">.37</span></h2>
 
-        <p class="font-light text-gray-500">Sweet, juicy berries bursting with flavor. Perfect for smoothies & desserts.</p>
+                <p class="font-light text-gray-500">Sweet, juicy berries bursting with flavor. Perfect for smoothies & desserts.</p>
 
-        <section class="flex items-center">
-            <button class="bg-gradient-to-b from-strong_pink to-mid_pink text-white uppercase pt-2 pb-1 px-4 flex-grow hover:bg-gradient-to-t my-4">Add to Cart</button>
+                <section class="flex items-center">
+                    <button class="bg-gradient-to-b from-strong_pink to-mid_pink text-white uppercase pt-2 pb-1 px-4 flex-grow hover:bg-gradient-to-t my-4 md:flex-none">Add to Cart</button>
 
-            <img src="heart.png" width="24px" height="24px" class="ml-2">
-        </section>
-        
+                    <img src="heart.png" width="24px" height="24px" class="ml-2">
+                </section>
+            
 
-        <h3>Features</h3>
+                <h3 class="uppercase font-light text-lg">Features</h3>
 
-        <ul>
-            <li><span>Grown in nutrient-rich soil,</span>producing deep flavor and natural sweetness</li>
-            <li><span>Picked early in the morning,</span>ensuring freshness lasts longer in storage</li>
-            <li><span>High antioxidant content</span> that supports skin glow and overall wellness</li>
-            <li><span>Thin, delicate skin</span>for easy eating and blending</li>
-        </ul>
+                <ul class="list-disc marker:text-strawberrie_pink text-sm text-gray-700 font-light">
+                    <li class="ml-3 pl-2"><span class="font-medium">Grown in nutrient-rich soil, </span>producing deep flavor and natural sweetness</li>
+                    <li class="ml-3 pl-2"><span class="font-medium">Picked early in the morning, </span>ensuring freshness lasts longer in storage</li>
+                    <li class="ml-3 pl-2"><span class="font-medium">High antioxidant content</span> that supports skin glow and overall wellness</li>
+                    <li class="ml-3 pl-2"><span class="font-medium">Thin, delicate skin </span>for easy eating and blending</li>
+                </ul>
+            </section>
     </main>
 </body>
 </html>

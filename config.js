@@ -4,12 +4,18 @@ tailwind.config = {
             colors: {
                 my_strawberry: '#ede1e6',
                 strong_pink: '#e39199',
-                mid_pink: '#fadef4ff'
+                mid_pink: '#fadef4ff',
+                strawberrie_pink: '#d45b63'
             },
 
             fontFamily: {
                 sans: ['Josefin Sans', 'sans-serif'],
                 title: ['Playfair Display SC', 'serif']
+            },
+
+            backgroundImage: {
+                mobile: "url('mobile.jpg')",
+                desktop: "url('desktop.jpg')"
             }
         }
     }
