@@ -3,15 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="config.js"></script>
 
     <title>Product Card</title>
 </head>
-<body>
-    <main>
+<body class="bg-my_strawberry flex justify-center">
+    <main class="bg-white w-full max-w-xs m-10 p-3">
         <img src="strawberrie.jpg" alt="Strawberries">
-        <h1>Fresh Strawberries</h1>
+
+        <h1 class="font-title font-bold text-2xl">Fresh Strawberries</h1>
+
+        <p class="font-title text-md">Organic - Hand-picked</p>
+
+        <h2 class="text-5xl font-light my-3">$2<span class="text-lg">.37</span></h2>
+
+        <p class="font-light text-gray-500">Sweet, juicy berries bursting with flavor. Perfect for smoothies & desserts.</p>
+
+        <section class="flex items-center">
+            <button class="bg-gradient-to-b from-strong_pink to-mid_pink text-white uppercase pt-2 pb-1 px-4 flex-grow hover:bg-gradient-to-t my-4">Add to Cart</button>
+
+            <img src="heart.png" width="24px" height="24px" class="ml-2">
+        </section>
+        
+
+        <h3>Features</h3>
+
+        <ul>
+            <li><span>Grown in nutrient-rich soil,</span>producing deep flavor and natural sweetness</li>
+            <li><span>Picked early in the morning,</span>ensuring freshness lasts longer in storage</li>
+            <li><span>High antioxidant content</span> that supports skin glow and overall wellness</li>
+            <li><span>Thin, delicate skin</span>for easy eating and blending</li>
+        </ul>
     </main>
 </body>
 </html>
